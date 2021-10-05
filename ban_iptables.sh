@@ -18,21 +18,13 @@ pop3_port="109,110,995"
 imap_port="143,218,220,993"
 other_port="24,50,57,105,106,158,209,1109,24554,60177,60179"
 bt_key_word="torrent
-.torrent
 peer_id=
 announce
 info_hash
 get_peers
 find_node
 BitTorrent
-announce_peer
-BitTorrent protocol
-announce.php?passkey=
-magnet:
-xunlei
-sandai
-Thunder
-XLLiveUD"
+magnet:"
 
 check_sys(){
 	if [[ -f /etc/redhat-release ]]; then
